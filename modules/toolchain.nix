@@ -15,7 +15,7 @@ in {
     mz.home.packages = with pkgs; [
       (hiPrio gcc)
       autoconf
-      clang
+      llvmPackages_13.clang
       clang-tools
       cmake
       gdb
