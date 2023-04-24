@@ -26,7 +26,7 @@
     emacs.enable = true;
     fish.enable = true;
     git.enable = true;
-    gnome.enable = true;
+    desktop.enable = true;
     user = {
       name = "vm-user";
       password = "";

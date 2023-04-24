@@ -34,6 +34,8 @@ in {
         ];
       };
 
+      hardware.pulseaudio.enable = false;
+
       i18n = {
         inputMethod = {
           enabled = "ibus";
@@ -46,22 +48,21 @@ in {
         plugins = with pkgs.xfce; [ thunar-archive-plugin ];
       };
 
-      xdg.portal.enable = true;
+      security.rtkit.enable = true;
+
       services = {
         autorandr.enable = true;
         blueman.enable = true;
         xserver = {
-          enable = true;
           desktopManager.gnome.enable = true;
-          displayManager.gdm.enable = false;
+          displayManager.defaultSession = "xfce+i3";
+          enable = true;
           desktopManager.xfce = {
             enable = true;
             noDesktop = true;
             enableXfwm = false;
           };
-          displayManager.defaultSession = "xfce+i3";
           windowManager.i3.enable = true;
-          libinput.enable = true;
         };
         pipewire = {
           enable = true;
@@ -73,11 +74,9 @@ in {
         };
       };
 
-      hardware.pulseaudio.enable = false;
-
-      security.rtkit.enable = true;
-
       sound.enable = false;
+
+      xdg.portal.enable = true;
     })
   ]);
 }
