@@ -12,7 +12,7 @@ in {
   };
 
   config = mkIf cfg.enable (ifNixOS {
-    # Steam is installed with Flatpak.
+    # Steam and Heroic (Epic Games) are installed with Flatpak.
     hardware.opengl.driSupport32Bit = true;
     mz.user.packages = with pkgs; [
       samba
