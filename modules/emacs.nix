@@ -17,7 +17,6 @@ in {
         emacs = {
           enable = true;
           extraPackages = (epkgs: (with epkgs; [ pdf-tools vterm ]));
-          package = pkgs.emacsGit;
         };
         fish.functions = { ec = "emacsclient -t -a '' $argv"; };
       };
