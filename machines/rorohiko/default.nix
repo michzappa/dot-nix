@@ -69,6 +69,4 @@
   };
 
   system.stateVersion = "22.11";
-
-  time.timeZone = "America/New_York";
 }

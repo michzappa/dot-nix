@@ -35,7 +35,5 @@
 
   system.stateVersion = "22.05";
 
-  time.timeZone = "America/New_York";
-
   users.mutableUsers = false;
 }

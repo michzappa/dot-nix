@@ -221,10 +221,7 @@ in {
       security.rtkit.enable = true;
 
       services = {
-        xserver = {
-          desktopManager.gnome.enable = true;
-          enable = true;
-        };
+        automatic-timezoned.enable = true;
         pipewire = {
           enable = true;
           alsa = {
@@ -232,6 +229,10 @@ in {
             support32Bit = true;
           };
           pulse.enable = true;
+        };
+        xserver = {
+          desktopManager.gnome.enable = true;
+          enable = true;
         };
       };
 
