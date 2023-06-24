@@ -60,6 +60,7 @@ in {
                   (mkTuple [ "xkb" "us" ])
                   (mkTuple [ "xkb" "fr+us" ])
                   (mkTuple [ "xkb" "it+us" ])
+                  (mkTuple [ "xkb" "ie" ])
                   (mkTuple [ "ibus" "rime" ])
                   (mkTuple [ "ibus" "libpinyin" ])
                   (mkTuple [ "ibus" "anthy" ])
