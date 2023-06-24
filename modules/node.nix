@@ -11,5 +11,5 @@ in {
     };
   };
 
-  config = { mz.home.packages = with pkgs; [ nodejs-16_x ]; };
+  config = { mz.home.packages = with pkgs; [ nodejs_18 ]; };
 }
