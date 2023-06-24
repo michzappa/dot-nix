@@ -6,9 +6,9 @@
     kmonad.url = "github:kmonad/kmonad?dir=nix";
     knock.url = "gitlab:michzappa/knock";
 
-    home-manager.url = "github:nix-community/home-manager";
+    home-manager.url = "github:nix-community/home-manager/release-23.05";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
-    nixpkgs.url = "github:NixOs/nixpkgs/nixos-22.11";
+    nixpkgs.url = "github:NixOs/nixpkgs/nixos-23.05";
   };
 
   outputs = { self, ... }@inputs:
