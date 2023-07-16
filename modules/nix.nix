@@ -27,6 +27,7 @@ in {
         overlays = [
           (self: super: {
             knock = inputs.knock.outputs.packages.${pkgs.system}.knock;
+            alire = pkgs.callPackage ../packages/alire.nix { };
             beeper = pkgs.callPackage ../packages/beeper.nix { };
           })
           inputs.emacs.overlay

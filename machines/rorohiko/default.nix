@@ -46,6 +46,7 @@
   };
 
   mz = {
+    ada.enable = true;
     android.enable = true;
     direnv.enable = true;
     desktop.enable = true;
