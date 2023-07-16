@@ -24,7 +24,6 @@ in {
         qemu
         ripgrep
         screen
-        texlive.combined.scheme-full # TODO Try tectonic
         tree
         unzip
         wget

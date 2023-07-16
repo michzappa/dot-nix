@@ -60,6 +60,7 @@
     gnupg.enable = true;
     java.enable = true;
     kmonad.enable = true;
+    latex.enable = true;
     mullvad.enable = true;
     nix.enable = true;
     nodejs.enable = true;
