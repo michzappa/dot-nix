@@ -1,6 +1,6 @@
 # Ada development environment.
 
-{ config, lib, options, pkgs, ... }:
+{ config, inputs, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;
 let cfg = config.mz.ada;
@@ -14,8 +14,13 @@ in {
 
   config = {
     mz.home = {
-      packages = with pkgs; [ alire gprbuild ];
-      # programs.emacs.extraPackages = (epkgs: (with epkgs; [ ada-mode ])); XXX: Does not build.
+      packages = with pkgs; [
+        # Newer package definitions do not build.
+        inputs.nixpkgs-old.legacyPackages.${pkgs.system}.emacsPackages.ada-mode
+
+        alire
+        gprbuild
+      ];
     };
   };
 }
