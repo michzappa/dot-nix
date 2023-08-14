@@ -15,11 +15,11 @@ in {
   config = {
     mz.home = {
       packages = with pkgs; [
-        # Newer package definitions do not build.
-        inputs.nixpkgs-old.legacyPackages.${pkgs.system}.emacsPackages.ada-mode
-
-        alire
         gprbuild
+
+        old.emacsPackages.ada-mode
+
+        unstable.alire
       ];
     };
   };

@@ -10,6 +10,7 @@
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     nixpkgs.url = "github:NixOs/nixpkgs/nixos-23.05";
     nixpkgs-old.url = "github:NixOs/nixpkgs/nixos-22.11";
+    nixpkgs-unstable.url = "github:NixOs/nixpkgs/nixos-unstable";
   };
 
   outputs = { self, ... }@inputs:

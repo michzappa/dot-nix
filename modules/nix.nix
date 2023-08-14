@@ -26,9 +26,10 @@ in {
         config.allowUnfree = true;
         overlays = [
           (self: super: {
-            knock = inputs.knock.outputs.packages.${pkgs.system}.knock;
-            alire = pkgs.callPackage ../packages/alire.nix { };
             beeper = pkgs.callPackage ../packages/beeper.nix { };
+            knock = inputs.knock.outputs.packages.${pkgs.system}.knock;
+            old = inputs.nixpkgs-old.legacyPackages.${pkgs.system};
+            unstable = inputs.nixpkgs-unstable.legacyPackages.${pkgs.system};
           })
           inputs.emacs.overlay
         ];
