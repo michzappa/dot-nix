@@ -62,7 +62,6 @@ in {
                   (mkTuple [ "xkb" "it+us" ])
                   (mkTuple [ "xkb" "ie" ])
                   (mkTuple [ "ibus" "rime" ])
-                  (mkTuple [ "ibus" "libpinyin" ])
                   (mkTuple [ "ibus" "anthy" ])
                 ];
                 xkb-options = [ "terminate:ctrl_alt_bksp" ];
@@ -215,7 +214,7 @@ in {
       i18n = {
         inputMethod = {
           enabled = "ibus";
-          ibus.engines = with pkgs.ibus-engines; [ anthy libpinyin rime ];
+          ibus.engines = with pkgs.ibus-engines; [ anthy rime ];
         };
       };
 
