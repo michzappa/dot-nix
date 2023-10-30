@@ -42,7 +42,6 @@ in {
           beeper
           calibre
           chromium
-          freetube
           gramps
           gthumb
           ledger
