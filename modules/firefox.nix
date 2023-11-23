@@ -19,7 +19,6 @@ in {
         profiles.default = {
           id = 0;
           isDefault = true;
-          userChrome = "#TabsToolbar { visibility: collapse !important; }";
           settings = {
             "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
             "browser.tabs.loadDivertedInBackground" = true;
