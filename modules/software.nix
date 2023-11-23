@@ -39,7 +39,6 @@ in {
 
       mz.user.packages = with pkgs;
         mkIf cfg.gui-apps [
-          beeper
           calibre
           chromium
           gramps
