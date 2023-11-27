@@ -1,4 +1,3 @@
-# Fish Shell Configuration
 { config, inputs, lib, options, pkgs, systemName, ... }:
 with lib;
 with lib.mz;

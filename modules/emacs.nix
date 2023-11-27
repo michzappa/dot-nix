@@ -1,4 +1,3 @@
-# Emacs Installation and Integration.
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

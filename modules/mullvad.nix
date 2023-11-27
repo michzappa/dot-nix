@@ -1,4 +1,3 @@
-# Mullvad VPN Installation
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

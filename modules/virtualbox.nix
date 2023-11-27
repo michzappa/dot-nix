@@ -1,4 +1,3 @@
-# Configuration of Oracle VirtualBox
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

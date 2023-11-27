@@ -1,7 +1,7 @@
-# Multi-platform Aliases for User Options
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz; {
+  # Multi-platform Aliases for User Options
   options.mz.user = {
     name = mkOption {
       type = types.str;

@@ -1,4 +1,3 @@
-# "Linux on the Deskop" Configuration with GNOME
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

@@ -1,4 +1,3 @@
-# Multi-platform Configuration of the Nix Package Manager
 { config, inputs, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

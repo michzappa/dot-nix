@@ -1,4 +1,3 @@
-# Firefox Installation and Configuration.
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

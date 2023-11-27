@@ -1,4 +1,3 @@
-# Docker Setup.
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

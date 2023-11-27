@@ -1,4 +1,3 @@
-# Direnv Integration
 { config, inputs, lib, options, pkgs, platform, ... }:
 with lib;
 with lib.mz;

@@ -1,4 +1,3 @@
-# Installation of Development Environments For Agda, Coq, Lean
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;

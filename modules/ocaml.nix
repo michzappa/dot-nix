@@ -1,5 +1,3 @@
-# OCaml development environment.
-
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;
@@ -12,6 +10,8 @@ in {
     };
   };
 
+  # This does not attempt to be declarative given the nature of OCaml
+  # projects. Everything is installed and managed via Opam.
   config = {
     mz.home = {
       packages = with pkgs; [ opam ];

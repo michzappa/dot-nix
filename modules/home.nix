@@ -1,7 +1,7 @@
-# Multi-platform Aliases for Home-Manager
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz; {
+  # Multi-platform aliases for home-manager.
   options.mz.home = {
     dconf = mkOption {
       type = types.attrs;

@@ -1,4 +1,3 @@
-# Load All Modules
 { lib, ... }:
 let
   allModuleFiles = dir:

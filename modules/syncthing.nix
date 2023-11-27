@@ -1,4 +1,3 @@
-# Installation of Syncthing
 { config, lib, options, pkgs, ... }:
 with lib;
 with lib.mz;
