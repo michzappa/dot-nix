@@ -46,11 +46,8 @@
   };
 
   mz = {
-    ada.enable = false;
-    android.enable = false;
     direnv.enable = true;
     desktop.enable = true;
-    docker.enable = false;
     emacs.enable = true;
     firefox.enable = true;
     fish.enable = true;
@@ -58,17 +55,14 @@
     gaming.enable = true;
     git.enable = true;
     gnupg.enable = true;
-    java.enable = false;
     kmonad.enable = true;
     typesetting.enable = true;
     mullvad.enable = true;
     nix.enable = true;
-    nodejs.enable = false;
-    ocaml.enable = false;
-    protonmail.enable = false;
+    nodejs.enable = true;
+    ocaml.enable = true;
     syncthing.enable = true;
     toolchain.enable = true;
-    virtualbox.enable = false;
   };
 
   system.stateVersion = "22.11";
