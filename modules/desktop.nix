@@ -18,9 +18,9 @@ in {
             (ifNixOS {
               "org/gnome/desktop/background" = {
                 picture-uri =
-                  "file:///run/current-system/sw/share/backgrounds/gnome/adwaita-l.webp";
+                  "file:///run/current-system/sw/share/backgrounds/gnome/adwaita-l.jpg";
                 picture-uri-dark =
-                  "file:///run/current-system/sw/share/backgrounds/gnome/adwaita-d.webp";
+                  "file:///run/current-system/sw/share/backgrounds/gnome/adwaita-d.jpg";
               };
 
               "org/gnome/desktop/screensaver" = {
@@ -200,7 +200,7 @@ in {
       };
 
       fonts = {
-        fonts = with pkgs; [
+        packages = with pkgs; [
           noto-fonts
           noto-fonts-cjk
           noto-fonts-emoji

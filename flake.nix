@@ -6,9 +6,9 @@
     kmonad.url = "github:kmonad/kmonad?dir=nix";
     knock.url = "gitlab:michzappa/knock";
 
-    home-manager.url = "github:nix-community/home-manager/release-23.05";
+    home-manager.url = "github:nix-community/home-manager/release-23.11";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
-    nixpkgs.url = "github:NixOs/nixpkgs/nixos-23.05";
+    nixpkgs.url = "github:NixOs/nixpkgs/nixos-23.11";
     nixpkgs-old.url = "github:NixOs/nixpkgs/nixos-22.11";
     nixpkgs-unstable.url = "github:NixOs/nixpkgs/nixos-unstable";
   };

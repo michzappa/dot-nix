@@ -13,12 +13,10 @@ in {
   config = {
     mz.home = {
       packages = with pkgs; [ texlive.combined.scheme-full typst ];
-      # Note: typst-mode is deprecated in favor of typst-ts-mode,
-      # which is not yet in Nixpkgs - relatively straightforward to
-      # install manually (with treesit-install-language-grammar in
-      # Emacs).
-      programs.emacs.extraPackages =
-        (epkgs: (with epkgs; [ auctex typst-mode ]));
+      # Note: typst-ts-mode, is not yet in Nixpkgs - relatively
+      # straightforward to install manually (with
+      # treesit-install-language-grammar in Emacs).
+      programs.emacs.extraPackages = (epkgs: (with epkgs; [ auctex ]));
     };
   };
 }
