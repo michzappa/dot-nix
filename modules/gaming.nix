@@ -11,13 +11,16 @@ in {
   };
 
   config = mkIf cfg.enable (ifNixOS {
-    # Steam and Heroic (Epic Games) are installed with Flatpak.
     hardware.opengl.driSupport32Bit = true;
+
     mz.user.packages = with pkgs; [
+      heroic
+      prismlauncher
       samba
       wineWowPackages.staging
-      prismlauncher
+      steam
     ];
+
     # For LAN-like Minecraft servers.
     services.zerotierone.enable = true;
   });
