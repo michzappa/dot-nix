@@ -46,6 +46,7 @@ in {
           ledger
           libreoffice
           thunderbird
+          vorta
           xournalpp
         ];
 
