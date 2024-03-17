@@ -53,11 +53,6 @@ in {
               ${any-nix-shell}/bin/any-nix-shell fish --info-right | source
 
               set fish_greeting
-              if [ $TERM != "dumb" ]
-                function fish_mode_prompt; end
-                function fish_prompt; end
-                ${starship}/bin/starship init fish | source
-              end
             '';
           };
           xdg-file."starship.toml".text = ''
