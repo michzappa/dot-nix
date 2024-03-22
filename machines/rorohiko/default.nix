@@ -49,6 +49,7 @@
     direnv.enable = true;
     desktop.enable = true;
     emacs.enable = true;
+    docker.enable = true;
     firefox.enable = true;
     fish.enable = true;
     formal-reasoning.enable = true;
