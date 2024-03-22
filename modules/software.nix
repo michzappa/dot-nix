@@ -42,6 +42,7 @@ in {
           calibre
           chromium
           gramps
+          ghidra
           gthumb
           ledger
           libreoffice
