@@ -16,10 +16,10 @@ in {
       packages = with pkgs; [
         (agda.withPackages [ agdaPackages.standard-library ])
         coq
-        lean
+        lean4
       ];
       programs.emacs.extraPackages =
-        (epkgs: (with epkgs; [ agda2-mode lean-mode proof-general ]));
+        (epkgs: (with epkgs; [ agda2-mode proof-general ]));
     };
   };
 }
