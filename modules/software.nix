@@ -49,6 +49,7 @@ in {
           thunderbird
           vorta
           xournalpp
+          zoom-us
         ];
 
       # Install apps

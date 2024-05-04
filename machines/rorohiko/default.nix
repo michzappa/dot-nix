@@ -64,6 +64,7 @@
     ocaml.enable = true;
     syncthing.enable = true;
     toolchain.enable = true;
+    virtualbox.enable = true;
   };
 
   system.stateVersion = "22.11";
