@@ -34,9 +34,9 @@ in {
               '';
               reboot = "sudo shutdown -r now";
               rebuild-home =
-                "home-manager $argv[1] --flake ${configPath}#${systemName}";
+                "home-manager --flake ${configPath}#${systemName} $argv";
               rebuild-nixos =
-                "nixos-rebuild --use-remote-sudo $argv[1] --flake ${configPath}#${systemName}";
+                "nixos-rebuild --use-remote-sudo --flake ${configPath}#${systemName} $argv";
               weather = ''
                 if test (count $argv) -lt 1;
                    curl wttr.in
