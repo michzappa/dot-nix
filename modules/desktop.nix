@@ -220,7 +220,6 @@ in {
       security.rtkit.enable = true;
 
       services = {
-        automatic-timezoned.enable = true;
         pipewire = {
           enable = true;
           alsa = {
