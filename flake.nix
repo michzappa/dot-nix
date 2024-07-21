@@ -4,11 +4,11 @@
   inputs = {
     emacs.url = "github:nix-community/emacs-overlay";
     kmonad.url = "github:kmonad/kmonad?dir=nix";
-    knock.url = "gitlab:michzappa/knock";
+    knock.url = "github:BentonEdmondson/knock";
 
-    home-manager.url = "github:nix-community/home-manager/release-23.11";
+    home-manager.url = "github:nix-community/home-manager/release-24.05";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
-    nixpkgs.url = "github:NixOs/nixpkgs/nixos-23.11";
+    nixpkgs.url = "github:NixOs/nixpkgs/nixos-24.05";
     nixpkgs-old.url = "github:NixOs/nixpkgs/nixos-22.11";
     nixpkgs-unstable.url = "github:NixOs/nixpkgs/nixos-unstable";
   };

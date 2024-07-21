@@ -14,7 +14,6 @@ in {
     users.extraGroups.vboxusers.members = [ config.mz.user.name ];
     virtualisation.virtualbox = {
       guest.enable = true;
-      guest.x11 = true;
       host.enable = true;
     };
   };
