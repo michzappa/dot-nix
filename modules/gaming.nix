@@ -17,7 +17,7 @@ in {
       heroic
       prismlauncher
       samba
-      wineWowPackages.staging
+      wineWowPackages.waylandFull
       steam
     ];
 

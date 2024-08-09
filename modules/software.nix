@@ -44,6 +44,7 @@ in {
           gramps
           ghidra
           gthumb
+          inkscape
           ledger
           libreoffice
           thunderbird
