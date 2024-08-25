@@ -21,6 +21,7 @@ in {
         gnumake
         ispell
         knock
+        python3
         qemu
         ripgrep
         screen
