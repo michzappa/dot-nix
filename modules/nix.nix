@@ -12,7 +12,7 @@ in {
 
   config = mkIf cfg.enable (mkMerge [
     {
-      mz.home.packages = with pkgs; [ nix-diff nixfmt ];
+      mz.home.packages = with pkgs; [ nix-diff nixfmt-classic ];
 
       nix = {
         extraOptions = ''
