@@ -21,6 +21,7 @@ in {
       gnumake
       nasm
       pkg-config
+      stdenv.cc.cc.lib
       valgrind
     ];
   };
