@@ -25,6 +25,7 @@ in {
         qemu
         ripgrep
         screen
+        stow
         tree
         unzip
         wget

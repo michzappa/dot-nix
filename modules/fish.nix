@@ -15,7 +15,7 @@ in {
       mz = {
         home = {
           programs.fish = {
-            enable = true;
+            enable = false;
             functions = let configPath = "~/dot-nix";
             in {
               build-nixos-vm =

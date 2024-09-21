@@ -201,6 +201,7 @@ in {
 
       fonts = {
         packages = with pkgs; [
+          iosevka
           noto-fonts
           noto-fonts-cjk
           noto-fonts-emoji
