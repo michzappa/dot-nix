@@ -4,7 +4,7 @@
   inputs = {
     emacs.url = "github:nix-community/emacs-overlay";
     kmonad.url = "github:kmonad/kmonad?dir=nix";
-    knock.url = "github:BentonEdmondson/knock";
+    knock.url = "gitlab:michzappa/knock";
 
     home-manager.url = "github:nix-community/home-manager/release-24.05";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
